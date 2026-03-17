@@ -39,8 +39,6 @@ defmodule ChannelWeb do
     quote do
       use Phoenix.Controller, formats: [:html, :json]
 
-      use Gettext, backend: ChannelWeb.Gettext
-
       import Plug.Conn
 
       unquote(verified_routes())

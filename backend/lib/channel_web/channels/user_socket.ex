@@ -10,14 +10,7 @@ defmodule ChannelWeb.UserSocket do
   # Uncomment the following line to define a "room:*" topic
   # pointing to the `ChannelWeb.RoomChannel`:
   #
-  # channel "room:*", ChannelWeb.RoomChannel
-  #
-  # To create a channel file, use the mix task:
-  #
-  #     mix phx.gen.channel Room
-  #
-  # See the [`Channels guide`](https://hexdocs.pm/phoenix/channels.html)
-  # for further details.
+  channel "room:*", ChannelWeb.RoomChannel
 
 
   # Socket params are passed from the client and can
